@@ -37,6 +37,7 @@ int main()
     box a, b, c, d;
     a.setdata(3, 3, 3);
     cout << "Volume of a is :" << a.volume() << endl;
+
     b.setdata(4, 4, 4);
     cout << "Volume of b is :" << b.volume() << endl;
 
@@ -45,5 +46,4 @@ int main()
 
     d = c++;
     cout << "Volume of d is :" << d.volume() << endl;
-   
 }
