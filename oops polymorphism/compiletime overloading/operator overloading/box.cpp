@@ -36,6 +36,7 @@ int main()
     Box a, b, c, d;
     a.setdata(2, 2, 2);
     cout << "volume of Box A is: " << a.volume() << endl;
+    
     b.setdata(3, 3, 3);
     cout << "volume of Box B is: " << b.volume() << endl;
 
