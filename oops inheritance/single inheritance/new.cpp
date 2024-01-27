@@ -36,8 +36,6 @@ public:
 };
 class C: public B
 {
-
-
 };
 int main()
 {
