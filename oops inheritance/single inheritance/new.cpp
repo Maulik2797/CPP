@@ -30,17 +30,17 @@ public:
 
         cout << "M = " << m << " "
              << "N = " << n << endl;
-        
+
         getdata();
     }
 };
-/*class C: public A, public B
+class C: public B
 {
 
 
-};*/
+};
 int main()
 {
-    B b;
+    C b;
     b.setdata();
 }
