@@ -11,8 +11,10 @@ class son : father
 public:
     void show()
     {
-        string name = "Maulik ";
-        cout << name << surname << endl;
+        string name;
+        cout << "Enter your son name : " << endl;
+        cin >> name;
+        cout << name << " " << surname << endl;
     }
 };
 
@@ -21,18 +23,22 @@ class daughter : father
 public:
     void disp()
     {
-        string name = "bhavisha ";
-        cout << name << surname << endl;
+        string name;
+        cout << "Enter your Daughter name : " << endl;
+        cin >> name;
+        cout << name << " " << surname << endl;
     }
 };
 class wife : father
 {
 public:
-    string name = "dakshaben ḥ";
+    string name;
 
     void out()
     {
-        cout << name << surname << endl;
+        cout << "Enter your wife name : " << endl;
+        cin >> name;
+        cout << name << " " << surname << endl;
     }
 };
 
